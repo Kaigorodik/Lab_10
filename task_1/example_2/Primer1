@@ -21,7 +21,7 @@ public class Primer1 {
 
     public static void main(String[] args) {
         try {
-            InputStream inputFile = new FileInputStream("lab10\\src\\task1\\example2\\Новый текстовый документ.txt");
+            InputStream inputFile = new FileInputStream("lab10\\src\\task1\\example2\\text.txt");
             readAllByByte(inputFile);
             System.out.print("\n\n\n");
             inputFile.close();
